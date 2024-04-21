@@ -19,7 +19,7 @@ nav {
 .chat {
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 30%;
     height: 100%;
 }
 
@@ -123,4 +123,38 @@ nav {
     font-size: 1rem;
     color: #848482;
     font-weight: 400;
+}
+
+.central, .central_image, .main_central_text, .second_central_text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.central_image img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+.main_central_text p {
+    font-size: 4em;
+    color: #1B1F21;
+    font-weight: 400;
+    text-align: center;
+}
+
+.second_central_text p {
+    font-size: 2em;
+    color: #1B1F21;
+    font-weight: 300;
+    text-align: center;
+}
+
+span {
+    font-weight: 700;
 }
